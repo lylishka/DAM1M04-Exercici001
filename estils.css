@@ -16,6 +16,14 @@ p {
     color: red;
 }
 
+.verd {
+    color: green;
+}
+
+.blau {
+    color: blue;
+}
+
 .gran {
     font-size: 24px;
 }
@@ -32,10 +40,12 @@ a:hover {
     color: red
 }
 
-::after{
+p::after {
+    content: "✔";
     color: green;
 }
 
-::before{
+p::before {
+    content: "👉";
     color: blue;
 }
