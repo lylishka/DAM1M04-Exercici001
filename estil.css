@@ -1,0 +1,41 @@
+p {
+    color: green
+}
+
+#titol {
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+.text-important {
+    font-weight: bold;
+    color: red;
+}
+
+.vermell {
+    color: red;
+}
+
+.gran {
+    font-size: 24px;
+}
+
+.negreta {
+    font-weight: bold;
+}
+
+.subrallat {
+    text-decoration: underline;
+}
+
+a:hover {
+    color: red
+}
+
+::after{
+    color: green;
+}
+
+::before{
+    color: blue;
+}
